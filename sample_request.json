@@ -1,0 +1,11 @@
+{
+  "event_name": "PyCon India 2026",
+  "issuer": "Python Society of India",
+  "issue_date": "2026-10-07",
+  "recipients": [
+    { "name": "Asha Verma", "email": "asha@example.com" },
+    { "name": "Rahul Singh", "email": "rahul@example.com", "achievement": "Excellence" },
+    { "name": "Meera Iyer", "email": "meera@example.com", "achievement": "Winner" },
+    { "name": "", "email": "invalid-row@example.com" }
+  ]
+}

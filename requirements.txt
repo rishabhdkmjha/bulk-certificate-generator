@@ -1,0 +1,9 @@
+# Tested with: fastapi 0.142, uvicorn 0.53, SQLAlchemy 2.1, pydantic 2.13, reportlab 5.0
+# Upper bounds stop a future major release from silently breaking a fresh install.
+fastapi>=0.110,<1
+uvicorn[standard]>=0.29,<1
+sqlalchemy>=2.0,<3
+pydantic[email]>=2.6,<3
+reportlab>=4.0,<6
+# Optional: only needed if you point DATABASE_URL at PostgreSQL
+# psycopg[binary]>=3.1
